@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "suppressExcessPropertyErrors": true,
+    "downlevelIteration": true,
+    "allowJs": true,
+//    "declaration": true,
+    "outDir": "./lib",
+    "target": "es5",
+    "strictNullChecks": false,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "lib": ["dom", "es2015"],
+    "paths": {
+      "@/*": ["src/*"],
+      "@plume-js/core": ["packages/core/src"]
+    }
+  },
+  "include": ["packages/*/src","stories/"],
+  "exclude": [ "node_modules", "**/*.spec.ts", "./dist"]
+}

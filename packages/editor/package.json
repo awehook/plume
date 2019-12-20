@@ -1,0 +1,25 @@
+{
+  "name": "@plume-js/editor",
+  "files": [
+    "lib/"
+  ],
+  "main": "lib/main.js",
+  "module": "lib/main.es.js",
+  "umd": "dist/main.js",
+  "version": "0.0.14",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@plume-js/icons": "link:../icons",
+    "debug": "^3.1.0",
+    "memoize-one": "^5.1.1",
+    "slate": "^0.57.0",
+    "slate-react": "^0.57.0",
+    "tiny-warning": "^1.0.3"
+  }
+}
