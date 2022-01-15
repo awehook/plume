@@ -41,7 +41,7 @@
     "jest": "^24.9.0",
     "lerna": "^3.18.1",
     "lit-html": "^1.1.2",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "prettier": "^1.18.2",
     "rollup": "^1.19.4",
     "rollup-plugin-alias": "^2.2.0",
